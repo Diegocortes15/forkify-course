@@ -1,0 +1,24 @@
+{
+	"name": "forkify",
+	"version": "1.0.0",
+	"description": "Recipe application",
+	"default": "index.html",
+	"browserslist": [
+		"defaults"
+	],
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html --dist-dir ./dist"
+	},
+	"author": "Diego Alejandro Cortes Roa",
+	"license": "ISC",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.2.0",
+		"parcel": "^2.2.0"
+	},
+	"dependencies": {
+		"core-js": "^3.20.2",
+		"fracty": "^1.0.9",
+		"regenerator-runtime": "^0.13.9"
+	}
+}
